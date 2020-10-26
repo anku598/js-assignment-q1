@@ -3,7 +3,7 @@ function customPrint(n, message) {
     return 0
   } else {
     console.log(message)
-    return customPrint(n - 1, message) // this is known as the recursive way to ittarate anything
+    return customPrint(n - 1, message) // this is known as the recursive concept to ittarate anything in javascript
   }
 }
 
